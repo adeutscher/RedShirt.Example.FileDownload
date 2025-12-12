@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BB91BC5-3506-4B9D-9FDE-98E1B4AA1EE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5947729F-6898-4A55-B469-6C8554E3FC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.Example.FileDownload.Core", "src\RedShirt.Example.FileDownload.Core\RedShirt.Example.FileDownload.Core.csproj", "{4C55374A-2BCF-4314-AE96-0A8EAA6596A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.Example.FileDownload.S3", "src\RedShirt.Example.FileDownload.S3\RedShirt.Example.FileDownload.S3.csproj", "{D84151C1-26EA-4EEE-8448-4DD500141EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.Example.Common.Aws", "src\RedShirt.Example.Common.Aws\RedShirt.Example.Common.Aws.csproj", "{F513992C-C1AD-418B-A65B-03F4631CF996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedShirt.Example.FileDownload.S3.UnitTests", "test\RedShirt.Example.FileDownload.S3.UnitTests\RedShirt.Example.FileDownload.S3.UnitTests.csproj", "{C896E340-1FAE-4400-9F1D-0DAA586C2866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C55374A-2BCF-4314-AE96-0A8EAA6596A5} = {4BB91BC5-3506-4B9D-9FDE-98E1B4AA1EE2}
+		{D84151C1-26EA-4EEE-8448-4DD500141EB2} = {4BB91BC5-3506-4B9D-9FDE-98E1B4AA1EE2}
+		{F513992C-C1AD-418B-A65B-03F4631CF996} = {4BB91BC5-3506-4B9D-9FDE-98E1B4AA1EE2}
+		{C896E340-1FAE-4400-9F1D-0DAA586C2866} = {5947729F-6898-4A55-B469-6C8554E3FC7A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C55374A-2BCF-4314-AE96-0A8EAA6596A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C55374A-2BCF-4314-AE96-0A8EAA6596A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C55374A-2BCF-4314-AE96-0A8EAA6596A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C55374A-2BCF-4314-AE96-0A8EAA6596A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84151C1-26EA-4EEE-8448-4DD500141EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84151C1-26EA-4EEE-8448-4DD500141EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84151C1-26EA-4EEE-8448-4DD500141EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84151C1-26EA-4EEE-8448-4DD500141EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F513992C-C1AD-418B-A65B-03F4631CF996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F513992C-C1AD-418B-A65B-03F4631CF996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F513992C-C1AD-418B-A65B-03F4631CF996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F513992C-C1AD-418B-A65B-03F4631CF996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C896E340-1FAE-4400-9F1D-0DAA586C2866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C896E340-1FAE-4400-9F1D-0DAA586C2866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C896E340-1FAE-4400-9F1D-0DAA586C2866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C896E340-1FAE-4400-9F1D-0DAA586C2866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
