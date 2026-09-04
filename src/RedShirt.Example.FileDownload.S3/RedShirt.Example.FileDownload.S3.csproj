@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\RedShirt.Example.Common.Aws\RedShirt.Example.Common.Aws.csproj" />
-        <ProjectReference Include="..\RedShirt.Example.FileDownload.Core\RedShirt.Example.FileDownload.Core.csproj" />
+        <ProjectReference Include="..\RedShirt.Example.Common.Aws\RedShirt.Example.Common.Aws.csproj"/>
+        <ProjectReference Include="..\RedShirt.Example.FileDownload.Core\RedShirt.Example.FileDownload.Core.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="AWSSDK.S3" Version="4.0.15" />
-        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.1" />
+        <PackageReference Include="AWSSDK.S3" Version="4.0.102.4"/>
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.11"/>
     </ItemGroup>
 
 </Project>

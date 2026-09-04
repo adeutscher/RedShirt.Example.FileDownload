@@ -10,16 +10,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="coverlet.collector" Version="6.0.4">
-          <PrivateAssets>all</PrivateAssets>
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PackageReference Include="coverlet.collector" Version="10.0.1">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.1" />
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.11"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.11"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.9.0"/>
         <PackageReference Include="Moq" Version="4.20.72"/>
-        <PackageReference Include="xunit.v3" Version="3.2.1"/>
-        <PackageReference Include="xunit.v3.runner.msbuild" Version="3.2.1">
+        <PackageReference Include="xunit.v3" Version="4.0.0"/>
+        <PackageReference Include="xunit.v3.runner.msbuild" Version="4.0.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
@@ -30,7 +30,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\RedShirt.Example.FileDownload.S3\RedShirt.Example.FileDownload.S3.csproj" />
+        <ProjectReference Include="..\..\src\RedShirt.Example.FileDownload.S3\RedShirt.Example.FileDownload.S3.csproj"/>
         <ProjectReference Include="..\..\src\RedShirt.Example.FileDownload.S3\RedShirt.Example.FileDownload.S3.csproj"/>
     </ItemGroup>
 
